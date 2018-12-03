@@ -85,6 +85,9 @@ function OnGetSample(sample) { //sample es un array donde cada elemento es un ar
         packet += channel + ";" ;
     }
 
+    // Añado EOF
+    packet += "VALID;"
+
     // Enviamos paquetes a clientes conectados
     broadcast(packet);
 }
