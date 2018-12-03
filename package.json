@@ -1,0 +1,25 @@
+{
+  "name": "cytontcp",
+  "version": "1.0.0",
+  "description": "Envia datos de cyton por tcp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erovelo/cytontcp.git"
+  },
+  "keywords": [
+    "cyton",
+    "tcp",
+    "nodejs",
+    "eeg"
+  ],
+  "author": "eric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erovelo/cytontcp/issues"
+  },
+  "homepage": "https://github.com/erovelo/cytontcp#readme"
+}
