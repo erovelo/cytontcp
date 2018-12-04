@@ -78,6 +78,9 @@ function OnGetSample(sample) { //sample es un array donde cada elemento es un ar
     // (milisegundos pasados desde 1970/01/01)
     let ms = date.getTime() + ";";
 
+    // Adjuntamos el numero de canales
+    packet += ourboard.numberOfChannels() + ";";
+
     // Por cada uno de los canales lo adjuntamos al paquete
     for (let i = 0; i < ourboard.numberOfChannels(); i++) {
         // (-0.000000000, 0.00000000 ) son Volts
